@@ -6,8 +6,8 @@ typedef unsigned int uint;
 template <typename T>
 void _swap(T &a, T &b){
 	T temp = a;
- 		 a = b;
-		 b = temp;
+ 	a = b;
+	b = temp;
 }
 
 
