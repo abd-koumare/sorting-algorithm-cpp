@@ -36,8 +36,10 @@ void ccontent_of(std::vector<T> arr){
 int main()
 {
 	std::vector<int> arr{9,8,7,6,5,4,3,2,1,0};
+	
     std::cout << "Begin:\n";
     ccontent_of(arr);
+	
     std::cout << "Insertion Sort\n";
     insertion_sort(arr,0,9);
     ccontent_of(arr);
